@@ -1,10 +1,9 @@
 {
-  "rewrites": [
+  "redirects": [
     {
-      "source": "/:path*",
-      "destination": "https://www.emmeeffeservices.it"
+      "source": "/(.*)",
+      "destination": "https://emmeeffeservices.it",
+      "statusCode": 301
     }
   ]
 }
-
-
